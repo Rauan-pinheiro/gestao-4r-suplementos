@@ -45,8 +45,8 @@ Sistema web de gestão feito para uma **loja real de suplementos** que vende em 
 Pré-requisito: Docker e Docker Compose.
 
 ```bash
-git clone https://github.com/Rauan-pinheiro/Gest-o-4Rsuplementos-new.git
-cd Gest-o-4Rsuplementos-new
+git clone https://github.com/Rauan-pinheiro/gestao-4r-suplementos.git
+cd gestao-4r-suplementos
 cp .env.example .env      # preencha os valores
 docker compose up --build
 ```
@@ -68,6 +68,11 @@ suplementos/
 └── templates/ static/
 Dockerfile · docker-compose.yml · Caddyfile · entrypoint.sh
 ```
+
+## 🤝 Desenvolvido em parceria com o Claude
+
+Construí este sistema em parceria com o **Claude**, a IA da Anthropic, que trabalhou como meu par de programação. Eu conduzi o projeto: levantei as necessidades do negócio, tomei as decisões e validei tudo no uso real. O Claude me ajudou a desenhar a arquitetura, escrever e revisar código e documentar.
+
 
 ## 👨‍💻 Autor
 
